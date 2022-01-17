@@ -1,0 +1,5 @@
+boto3
+polling2
+
+black
+twine

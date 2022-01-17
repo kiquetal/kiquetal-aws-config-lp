@@ -1,0 +1,11 @@
+task :publish_test do
+  sh %(twine upload --repository-url https://test.pypi.org/legacy/ dist/*)
+end
+
+task :publish do
+  sh %(twine upload dist/*)
+end
+
+task :build do
+  sh %(python setup.py bdist_wheel)
+end
