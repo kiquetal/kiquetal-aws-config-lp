@@ -1,0 +1,7 @@
+.here
+.idea
+.python-version
+bin/
+lib/
+lib64
+pyenv.cfg
